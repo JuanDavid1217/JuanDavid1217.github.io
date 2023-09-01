@@ -1,16 +1,24 @@
 <table>
     <tr>
-        <td> nombre <br>
-             titulo <br>
+        <td> 
+            <div>
+                <h2 class="name">
+                    {{name}}
+                </h2>
+                {{charges}}
+            </div>
+            <div class="objetive">
+             {{objetive}}
+            </div>
         </td>
         <td>
-            foto
+            <div class="avatar" style="background-image: url({{photo}})"></div>
         </td>
         <td>
-            email <br>
-            celular <br>
-            ubicacion <br>
-            redSocial<br>
+            {{email}} <br>
+            {{cel}} <br>
+            {{ubication}} <br>
+            {{social}}<br>
         </td>
     </tr>
 </table>
