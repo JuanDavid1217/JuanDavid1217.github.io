@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { HeaderServices } from './services/header.service';
 import { HttpClientModule } from "@angular/common/http";
+import { WorkExperienceService } from './services/work-experience.service';
+import { GeneralService } from './services/general.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HttpClientModule } from "@angular/common/http";
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [HeaderServices],
+  providers: [HeaderServices,
+              WorkExperienceService,
+              GeneralService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
