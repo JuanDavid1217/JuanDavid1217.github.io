@@ -17,7 +17,9 @@ import { GeneralService } from "./general.service";
 
     constructor(){};
 }*/
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+  })
 export class HeaderServices{
     constructor(private cliente: HttpClient, private service:GeneralService){};
     /*info:any={
