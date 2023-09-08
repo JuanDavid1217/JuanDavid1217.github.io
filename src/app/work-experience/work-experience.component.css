@@ -1,0 +1,49 @@
+*{
+    width: 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+small {
+    color: rgb(106, 115, 108);
+}
+
+.principal-data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 30px;
+    height: 50px;
+    background-color: rgb(137, 241, 255);
+    margin-right: 15px;
+}
+
+.date-ubication {
+    display: flex;
+}
+
+.position {
+    margin-left: 45px;
+}
+
+.position-description {
+    margin-left: 45px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.description {
+    text-align: justify;
+}
+
+#dates {
+    width: 50%;
+}
+
+#ubication {
+    width: 50%;
+    text-align: right;
+    margin-right: 55px;
+}
