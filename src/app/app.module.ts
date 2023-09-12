@@ -10,13 +10,15 @@ import { HttpClientModule } from "@angular/common/http";
 import { WorkExperienceService } from './services/work-experience.service';
 import { GeneralService } from './services/general.service';
 import { SkillsComponent } from './skills/skills.component';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WorkExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,
