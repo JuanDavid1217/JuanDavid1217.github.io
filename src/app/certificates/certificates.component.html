@@ -1,0 +1,9 @@
+<br>
+<h2 class="position">ACHIEVEMENTS & CERTIFICATES</h2>
+<div class="position" *ngFor="let certificate of certificates">
+    <div class="certificate-container">
+        <div>{{certificate.achievement}}</div>
+        <div class="description" *ngIf="certificate.description!=''">{{certificate.description}}</div>
+    </div>
+</div>
+
