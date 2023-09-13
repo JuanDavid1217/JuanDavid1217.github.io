@@ -11,6 +11,7 @@ import { WorkExperienceService } from './services/work-experience.service';
 import { GeneralService } from './services/general.service';
 import { SkillsComponent } from './skills/skills.component';
 import { CertificatesComponent } from './certificates/certificates.component';
+import { InterestsComponent } from './interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CertificatesComponent } from './certificates/certificates.component';
     HeaderComponent,
     WorkExperienceComponent,
     SkillsComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    InterestsComponent
   ],
   imports: [
     BrowserModule,
