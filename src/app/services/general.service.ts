@@ -5,7 +5,7 @@ import { throwError } from "rxjs";
 @Injectable({providedIn:'root'})
 export class GeneralService {
 
-    apiURL:string="http://localhost:8080/"
+    apiURL:string="https://apicvnode-service-juandavid1217.cloud.okteto.net/"
 
     httpOptions = {
         headers: new HttpHeaders({
