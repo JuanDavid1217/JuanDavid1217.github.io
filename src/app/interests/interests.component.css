@@ -1,0 +1,23 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.position {
+    margin-left: 20px;
+}
+
+
+.interest {
+    width: 35%;
+    float: right;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+img {
+    width: 30px;
+    margin-right: 10px;
+}

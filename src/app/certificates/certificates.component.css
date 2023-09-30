@@ -1,0 +1,23 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.position {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.position {
+    margin-left: 40px;
+    text-align: justify;
+    display: list-item;
+}
+
+.certificate-container {
+    margin-bottom: 20px;
+}
+
+.description {
+    font-style: italic;
+    color: rgb(106, 115, 108);
+}
