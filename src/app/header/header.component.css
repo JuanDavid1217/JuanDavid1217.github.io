@@ -1,0 +1,64 @@
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table{
+    background-image: url("https://us.123rf.com/450wm/wewhitelist/wewhitelist1508/wewhitelist150800067/44334659-fondo-blanco-geom%C3%A9trico-abstracto-modelo-para-el-dise%C3%B1o-estilo-pol%C3%ADgono-de-vectores-de-fondo.jpg?ver=6");
+}
+
+#img {
+    width: 170px;
+    height: auto;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color:rgb(137, 241, 255);
+    border-style:solid;
+    margin: 5%;
+}
+
+.container-img {
+    text-align: center;
+}
+
+td {
+    width: 33.3%;
+}
+
+.objetive {
+    text-align: justify;
+    margin-left: 45px;
+}
+
+.name {
+    margin-bottom: 0px;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.color-charge {
+    color: rgb(137, 241, 255);
+}
+
+.form {
+    margin-top: 15px;
+    width: 30px;
+    height: 50px;
+    background-color: rgb(137, 241, 255);
+    margin-right: 15px;
+}
+
+.contacto {
+    font-size: small;
+    text-align: right;
+}
+
+p {
+    margin-right: 40px;
+}
+
+img {
+    width: 20px;
+    margin-left: 10px;
+}

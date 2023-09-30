@@ -1,0 +1,8 @@
+.first-column {
+    width: 55%;
+}
+
+.second-column {
+    width: 45%;
+    vertical-align: top; /*Posición en vertical*/
+}

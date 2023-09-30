@@ -1,1 +1,32 @@
-<p>header works!</p>
+<table>
+    <tr>
+        <td> 
+            <div class="container">
+                <div class="form"></div>
+                <div>
+                    <h2 class="name">
+                        {{headerInfo.name}}
+                    </h2>
+                    <div class="color-charge">
+                        {{headerInfo.charges}}
+                
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="objetive">
+                {{headerInfo.objetive}}
+            </div>
+        </td>
+        <td class="container-img">
+            <img id="img" src="{{headerInfo.photo}}" alt="perfil photo">
+        </td>
+        <td class="contacto">
+            <p>{{headerInfo.email}} <img src="https://firebasestorage.googleapis.com/v0/b/mycv-6aded.appspot.com/o/6293426cdf8ce1568c75ff73.png?alt=media&token=a03f95cd-4f28-42b5-8102-317540277981"></p>
+            <p>{{headerInfo.cel}} <img src="https://firebasestorage.googleapis.com/v0/b/mycv-6aded.appspot.com/o/585fd1b1cb11b227491c35d4.png?alt=media&token=cd0acaa9-0497-47bd-8672-2b04bacc5ebe"></p>
+            <p>{{headerInfo.ubication}} <img src="https://firebasestorage.googleapis.com/v0/b/mycv-6aded.appspot.com/o/588891debc2fc2ef3a1860a2.png?alt=media&token=0c06faf7-b7ff-4486-afa2-df14546180fc"></p>
+            <p>{{headerInfo.social}} <img src="https://firebasestorage.googleapis.com/v0/b/mycv-6aded.appspot.com/o/623dd7ec70712bdafc63c38b.png?alt=media&token=a089b5b9-8f02-4835-88fb-f477099f6548"></p>
+        </td>
+    </tr>
+</table>
+
