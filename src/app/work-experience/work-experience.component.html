@@ -1,1 +1,29 @@
-<p>work-experience works HOTFIXES!</p>
+<h2 class="position">WORK EXPERIENCE</h2>
+<div *ngFor = "let work of works">
+    <div class="principal-data">
+        <div class="form"></div>
+        <div>
+            <div><b>{{work.charge}}</b></div>
+            <div>{{work.company}}</div>
+            <div class="date-ubication">
+                <div id="dates">
+                    <small><i>{{work.startdate}} - {{work.enddate}}</i></small>
+                </div>
+                <div id="ubication">
+                    <small><i>{{work.city}}, {{work.country}}</i></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <small class="position"><i>Accomplishments</i></small>
+    <div class="position-description">
+        <ul *ngFor="let accomplishment of work.acomplishments">
+            <li>
+                <div class="description">
+                    {{accomplishment.description}}
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br>
+<div>
